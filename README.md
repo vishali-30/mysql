@@ -1,4 +1,6 @@
  <!-- for users table -->
+use users;
+
 update
 
 UPDATE users SET date_of_birth = '2004-01-20' WHERE user_id=101;
@@ -12,6 +14,8 @@ create
 INSERT INTO Customer(user_id,first_name,last_name,date_of_birth,email_id,address,phone_number,City) VALUES ('101','Dharun','Raj','2004-10-30','hdgsh@gmail.com','123/5,abc st','87653876','Chennai');
 
 <!-- for product table -->
+use products;
+
 update
 
 UPDATE products SET product_price = 8499 WHERE product_id=102;
